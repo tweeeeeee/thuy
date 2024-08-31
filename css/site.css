@@ -3,10 +3,26 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
-body {
-  background-color: #f497ca;
-}
 
+body {
+  /* background-image: radial-gradient( #fff1f9 10%, transparent 11%),
+  radial-gradient(#ffffff 10%, transparent 11%);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;
+background-repeat: repeat; */
+  background-color: #f497ca;
+  
+}
+/* .w3r-dot {
+  width: 240px;
+  height: 240px;
+  background-color: #f497ca;
+  background-image: radial-gradient(#fcfcfc 10%, transparent 11%),
+    radial-gradient(#ffffff 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+} */
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family: sans-serif;
@@ -17,20 +33,40 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+ 
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #9efdc3;
-  background-color: #7ce3ff;
+  border: solid 5px hsl(192, 89%, 59%);
+  background-color: #bdfaa7;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #e1a3ea;
-  background-color: #f6e6ef;
+  padding: 100px;
+  margin-bottom: 100px;
+  border: solid 5px #ecacd0;
+  /*background-color: #f6e6ef;*/
+  background-image: radial-gradient( #fefefe 10%, transparent 11%),
+  radial-gradient( #fefefe 10%, transparent 11%);
+  background-size: 60px 60px;
+background-position: 0 0, 30px 30px;
+background-repeat: repeat;
+  background-color: hwb(60 71% 1%)
+  
+  
+}
+/*background-color: #f6e6ef;*/
+ul {
+  list-style-type: none;
+  display:flex;
+ 
+}
+
+li{
+    display:block;
+    margin:10px;
 }
